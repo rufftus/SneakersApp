@@ -1,3 +1,5 @@
+import "../styles/Cart.css"
+
 function Cart({cartItems}){
     const totalItems=cartItems.reduce((sum,item)=>
     sum+item.quantity,0)

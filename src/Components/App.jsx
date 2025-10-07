@@ -32,7 +32,7 @@ function App() {
 
   return (
 <div className='App'>
-  <Banner />
+  <Banner/>
   <ShoppingList onAddToCart={addToCart}/>
   <Cart cartItems={cart}/>
 </div>
