@@ -36,6 +36,7 @@ function Cart({cartItems}){
             <p>Quantité: {item.quantity}</p>
             <p className="cart-item-price">{item.prix * item.quantity}€</p>
           </div>
+          <button className="delete">supprimer</button>
         </div>
       ))}
     </div>
